@@ -7,7 +7,26 @@
 	</head>
 	<body>
 
+    <script>
 
+
+    var area = ((2*a*b) + (2*b*c) + (2*a*c))
+
+    var units = ["in", "ft", "mi", "cm", "m", "Km"]
+
+   document.write("<h1>The area of a rectangular prism. </h1>");
+
+   var a = console.log(prompt("Length of side a: ", "Name"));
+
+
+var b =  console.log(prompt("Length of side b: ", "length"));
+
+ var c =   console.log(prompt("Length of side c: ", "length"));
+
+    document.write(area +units[1]);
+
+    document.getElementById("demo").innerHTML = (area + units[1]);
+    </script>
 
 	</body>
 </html>
